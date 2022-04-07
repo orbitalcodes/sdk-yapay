@@ -1,14 +1,18 @@
 {
-    "name": "rockbuzz/sdk-yapay",
+    "name": "orbitalcodes/sdk-yapay",
     "authors": [
         {
             "name": "Tiago Lopes",
             "email": "tiago@rockbuzz.com.br"
+        },
+        {
+            "name": "Kallef Alexandre",
+            "email": "kallef@orbitaldev.com.br"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Rockbuzz\\SDKYapay\\": "src/"
+            "OrbitalCodes\\Yapay\\": "src/"
         }
     },
     "require": {

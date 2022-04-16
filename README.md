@@ -9,7 +9,7 @@ PHP >=7.3
 ## Install
 
 ```bash
-$ composer require orbital/sdk-yapay
+$ composer require orbitalcodes/sdk-yapay
 ```
 
 ## Usage

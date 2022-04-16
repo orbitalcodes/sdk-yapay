@@ -3,7 +3,7 @@
 namespace Tests\Payment;
 
 use PHPUnit\Framework\TestCase;
-use Rockbuzz\SDKYapay\Payment\CreditCard;
+use Orbital\SDKYapay\Payment\CreditCard;
 
 class CreditCardTest extends TestCase
 {

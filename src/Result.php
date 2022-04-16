@@ -1,9 +1,9 @@
 <?php
 
-namespace Rockbuzz\SDKYapay;
+namespace Orbital\SDKYapay;
 
-use Rockbuzz\SDKYapay\Result\Fail;
-use Rockbuzz\SDKYapay\Result\Success;
+use Orbital\SDKYapay\Result\Fail;
+use Orbital\SDKYapay\Result\Success;
 
 class Result
 {

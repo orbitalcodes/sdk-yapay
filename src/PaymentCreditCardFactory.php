@@ -1,11 +1,11 @@
 <?php
 
-namespace Rockbuzz\SDKYapay;
+namespace Orbital\SDKYapay;
 
 use DomainException;
-use Rockbuzz\SDKYapay\Config;
-use Rockbuzz\SDKYapay\PaymentCreditCard;
-use Rockbuzz\SDKYapay\Payment\{Item, Items, Email, Billing,Address, CreditCard, Customer, TransactionCreditCard};
+use Orbital\SDKYapay\Config;
+use Orbital\SDKYapay\PaymentCreditCard;
+use Orbital\SDKYapay\Payment\{Item, Items, Email, Billing,Address, CreditCard, Customer, TransactionCreditCard};
 
 class PaymentCreditCardFactory
 {

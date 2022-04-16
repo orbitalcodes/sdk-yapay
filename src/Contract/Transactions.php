@@ -1,9 +1,9 @@
 <?php
 
-namespace Rockbuzz\SDKYapay\Contract;
+namespace Orbital\SDKYapay\Contract;
 
-use Rockbuzz\SDKYapay\Result;
-use Rockbuzz\SDKYapay\Exception\YapayException;
+use Orbital\SDKYapay\Result;
+use Orbital\SDKYapay\Exception\YapayException;
 
 interface Transactions
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Rockbuzz\SDKYapay\Contract;
+namespace Orbital\SDKYapay\Contract;
 
-use Rockbuzz\SDKYapay\Result;
+use Orbital\SDKYapay\Result;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;
-use Rockbuzz\SDKYapay\Exception\YapayException;
+use Orbital\SDKYapay\Exception\YapayException;
 
 interface Payment
 {

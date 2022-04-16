@@ -1,13 +1,13 @@
 <?php
 
-namespace Rockbuzz\SDKYapay;
+namespace Orbital\SDKYapay;
 
 use DomainException;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\GuzzleException;
-use Rockbuzz\SDKYapay\Exception\YapayException;
-use Rockbuzz\SDKYapay\Contract\Transactions as ITransactions;
+use Orbital\SDKYapay\Exception\YapayException;
+use Orbital\SDKYapay\Contract\Transactions as ITransactions;
 
 class Transactions implements ITransactions
 {

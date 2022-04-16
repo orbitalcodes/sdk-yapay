@@ -3,7 +3,7 @@
 namespace Tests\Payment;
 
 use PHPUnit\Framework\TestCase;
-use Rockbuzz\SDKYapay\Payment\Address;
+use Orbital\SDKYapay\Payment\Address;
 
 class AddressTest extends TestCase
 {

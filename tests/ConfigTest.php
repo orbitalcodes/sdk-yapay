@@ -3,7 +3,7 @@
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
-use Rockbuzz\SDKYapay\Config;
+use Orbital\SDKYapay\Config;
 
 class ConfigTest extends TestCase
 {

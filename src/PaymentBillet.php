@@ -1,16 +1,16 @@
 <?php
 
-namespace Rockbuzz\SDKYapay;
+namespace Orbital\SDKYapay;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
-use Rockbuzz\SDKYapay\Payment\Items;
-use Rockbuzz\SDKYapay\Payment\Billing;
-use Rockbuzz\SDKYapay\Contract\Payment;
+use Orbital\SDKYapay\Payment\Items;
+use Orbital\SDKYapay\Payment\Billing;
+use Orbital\SDKYapay\Contract\Payment;
 use GuzzleHttp\Exception\GuzzleException;
-use Rockbuzz\SDKYapay\Payment\ExtraFields;
-use Rockbuzz\SDKYapay\Exception\YapayException;
-use Rockbuzz\SDKYapay\Payment\TransactionBillet;
+use Orbital\SDKYapay\Payment\ExtraFields;
+use Orbital\SDKYapay\Exception\YapayException;
+use Orbital\SDKYapay\Payment\TransactionBillet;
 
 class PaymentBillet extends BasePayment implements Payment
 {

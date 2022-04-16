@@ -3,10 +3,10 @@
 namespace Tests\Payment;
 
 use PHPUnit\Framework\TestCase;
-use Rockbuzz\SDKYapay\Payment\Customer;
-use Rockbuzz\SDKYapay\Payment\Billing;
-use Rockbuzz\SDKYapay\Payment\Email;
-use Rockbuzz\SDKYapay\Payment\Address;
+use Orbital\SDKYapay\Payment\Customer;
+use Orbital\SDKYapay\Payment\Billing;
+use Orbital\SDKYapay\Payment\Email;
+use Orbital\SDKYapay\Payment\Address;
 
 class BillingTest extends TestCase
 {

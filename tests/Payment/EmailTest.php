@@ -3,7 +3,7 @@
 namespace Tests\Payment;
 
 use PHPUnit\Framework\TestCase;
-use Rockbuzz\SDKYapay\Payment\Email;
+use Orbital\SDKYapay\Payment\Email;
 
 class EmailTest extends TestCase
 {

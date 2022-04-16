@@ -3,7 +3,7 @@
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
-use Rockbuzz\SDKYapay\Transactions;
+use Orbital\SDKYapay\Transactions;
 
 class TransactionsTest extends TestCase
 {

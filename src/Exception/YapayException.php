@@ -1,6 +1,6 @@
 <?php
 
-namespace Rockbuzz\SDKYapay\Exception;
+namespace Orbital\SDKYapay\Exception;
 
 use Exception;
 

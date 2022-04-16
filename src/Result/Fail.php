@@ -1,6 +1,6 @@
 <?php
 
-namespace Rockbuzz\SDKYapay\Result;
+namespace Orbital\SDKYapay\Result;
 
 use JsonSerializable;
 

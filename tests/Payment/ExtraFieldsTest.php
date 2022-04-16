@@ -3,9 +3,9 @@
 namespace Tests\Payment;
 
 use PHPUnit\Framework\TestCase;
-use Rockbuzz\SDKYapay\Payment\ExtraFields;
-use Rockbuzz\SDKYapay\Payment\Item;
-use Rockbuzz\SDKYapay\Payment\Items;
+use Orbital\SDKYapay\Payment\ExtraFields;
+use Orbital\SDKYapay\Payment\Item;
+use Orbital\SDKYapay\Payment\Items;
 
 class ExtraFieldsTest extends TestCase
 {

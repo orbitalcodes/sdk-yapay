@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rockbuzz\SDKYapay;
+namespace Orbital\SDKYapay;
 
 class Config
 {

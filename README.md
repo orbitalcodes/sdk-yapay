@@ -2,7 +2,7 @@
 
 Layer to abstract communication with Yapay Payment API.
 
-<p><img src="https://github.com/rockbuzz/sdk-yapay/workflows/Main/badge.svg"/></p>
+<p><img src="https://github.com/orbital/sdk-yapay/workflows/Main/badge.svg"/></p>
 
 ## Requirements
 
@@ -11,7 +11,7 @@ PHP >=7.3
 ## Install
 
 ```bash
-$ composer require rockbuzz/sdk-yapay
+$ composer require orbital/sdk-yapay
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ $ composer require rockbuzz/sdk-yapay
 ```php
 <?php
 
-use Rockbuzz\SDKYapay\PaymentBoletoFactory;
+use Orbital\SDKYapay\PaymentBoletoFactory;
 
 $params = [
     'store_code' => 1234,
@@ -71,7 +71,7 @@ try {
 ```php
 <?php
 
-use Rockbuzz\SDKYapay\PaymentCreditCardFactory;
+use Orbital\SDKYapay\PaymentCreditCardFactory;
 
 $params = [
     'store_code' => 1234,
@@ -127,7 +127,7 @@ try {
 ```php
 <?php
 
-use Rockbuzz\SDKYapay\Transactions;
+use Orbital\SDKYapay\Transactions;
 
 $config = [
     'store_code' => 1234,
@@ -210,12 +210,12 @@ $jsonAbout = json_encode($about);
 
 `Payment done can throw an exception`
 ```php
-Rockbuzz\SDKYapay\Exception\YapayException::class
+Orbital\SDKYapay\Exception\YapayException::class
 ```
 
 `Transaction findByNumber can throw an exception`
 ```php
-Rockbuzz\SDKYapay\Exception\YapayException::class
+Orbital\SDKYapay\Exception\YapayException::class
 ```
 
 ## Contributing

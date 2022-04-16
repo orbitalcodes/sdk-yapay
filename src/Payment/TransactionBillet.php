@@ -1,6 +1,6 @@
 <?php
 
-namespace Rockbuzz\SDKYapay\Payment;
+namespace Orbital\SDKYapay\Payment;
 
 use Datetime;
 use JsonSerializable;

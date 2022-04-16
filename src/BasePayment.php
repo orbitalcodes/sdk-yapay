@@ -1,9 +1,9 @@
 <?php
 
-namespace Rockbuzz\SDKYapay;
+namespace Orbital\SDKYapay;
 
-use Rockbuzz\SDKYapay\Payment\Items;
-use Rockbuzz\SDKYapay\Payment\Billing;
+use Orbital\SDKYapay\Payment\Items;
+use Orbital\SDKYapay\Payment\Billing;
 
 abstract class BasePayment
 {

@@ -3,7 +3,7 @@
     "authors": [
         {
             "name": "Tiago Lopes",
-            "email": "tiago@rockbuzz.com.br"
+            "email": "tiago@orbital.com.br"
         },
         {
             "name": "Kallef Alexandre",
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "OrbitalCodes\\Yapay\\": "src/"
+            "Orbital\\Yapay\\": "src/"
         }
     },
     "require": {

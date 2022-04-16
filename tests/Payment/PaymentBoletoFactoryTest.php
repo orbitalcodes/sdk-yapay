@@ -4,7 +4,7 @@ namespace Tests\Payment;
 
 use DomainException;
 use PHPUnit\Framework\TestCase;
-use Rockbuzz\SDKYapay\PaymentBoletoFactory;
+use Orbital\SDKYapay\PaymentBoletoFactory;
 
 class PaymentBoletoFactoryTest extends TestCase
 {

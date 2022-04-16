@@ -3,7 +3,7 @@
 namespace Tests\Result;
 
 use PHPUnit\Framework\TestCase;
-use Rockbuzz\SDKYapay\Result\Fail;
+use Orbital\SDKYapay\Result\Fail;
 
 class FailTest extends TestCase
 {

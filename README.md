@@ -2,8 +2,6 @@
 
 Layer to abstract communication with Yapay Payment API.
 
-<p><img src="https://github.com/orbital/sdk-yapay/workflows/Main/badge.svg"/></p>
-
 ## Requirements
 
 PHP >=7.3
